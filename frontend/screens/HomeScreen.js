@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
 
 const HomeScreen = ({ navigation }) => {
-  return (
+  return (  
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to Vegetation Classifier</Text>
       <Button
